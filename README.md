@@ -74,14 +74,4 @@ vectors where the corresponding values for each frame are stored consecutively. 
 here they can be copied or exported. See image below.
 
 14- The script will plot the complete time course for all the three normalized variables, the
-second set described in step 12. See image below. 
-
-15- A quick exercise using the example frames:
-a. Select the folder with the scripts in the Matlab path.
-b. Run pupdegu.
-c. Select all frames in the "example" folder.
-d. In the image that will pop up, click a point close to the center of the pupil, press
-Enter.
-e. Write "50" for horizontal and vertical thresholds.
-f. Write "5" for the strikes value.
-g. Watch the program work.
+second set described in step 12.
