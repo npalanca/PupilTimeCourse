@@ -5,7 +5,7 @@ Scripts to extract pupil sizes from video frames of a pupillary light reflex tes
 "Free Video to JPG converter", but there are many options for this.
 
 2- Open Matlab, make sure the current working folder is set to the folder that contains the
-scripts: pupdegu, Bordes and Bordesvertical. See image below.
+scripts: pupdegu, Bordes and Bordesvertical. 
 
 3- Right click on pupdegu in current working folder, select “run” in the menu that pops up.
 From step 2: In this picture, arrows indicate current working folder and current path, the working
@@ -15,7 +15,7 @@ folder can be switched from the bar that shows the path.
 saved the images you extracted from the video and select those corresponding to the part
 of the video you want to analyze. It is recommended that you select a fragment of the video
 corresponding to a single stimulus and the corresponding post-stimulus period (which
-depends on your protocol). See image below.
+depends on your protocol). 
 
 5- In addition, 15 frames before stimulus onset should be selected, since the program will use
 the first 15 frames of your selection to estimate the size of the resting pupil. Please note
@@ -45,16 +45,16 @@ with all the lightness values of the pixel at +-300 positions from it in the X a
 Strikes are the number of pixels above your threshold the script will accept before
 declaring that the edge of the pupil has been found. So, if your strike value is 10, the
 script will crawl until it finds 10 CONSECUTIVE pixels above threshold, then stop, go back
-10 pixels, and say "this is the edge". In good recordingssuch as the example strike values
+10 pixels, and say "this is the edge". In good recordings such as the example strike values
 can be kept low, 5 or less usually works, but they can be increased in case there are
 some lighter objects within the pupil (a reflection, for example) and you need the script
-to "skip over" it. For the example, 5 strikes are fine. See image below.
+to "skip over" it. For the example, 5 strikes are fine. 
 
 10- Once it has its orders, the script will go through the images you selected finding the
 edges of the pupil from your reference point, and recording the vertical and horizontal
 diameters of the pupil if the variables were set up appropriately. Once every
 approximately 30 frames it will print out one and show you its work, so you can check if
-everything is OK. See image below.
+everything is OK. 
 
 11- There are six main output variables, the first three are absolute pixel values.
 a. Diametros: Raw pixel value of the horizontal diameter for each of your frames.
@@ -71,7 +71,7 @@ c. Arearel: Relative area (in %) for each frame.
 
 13- These variables can be found and looked out in the workspace. They take the shape of
 vectors where the corresponding values for each frame are stored consecutively. From
-here they can be copied or exported. See image below.
+here they can be copied or exported. 
 
 14- The script will plot the complete time course for all the three normalized variables, the
 second set described in step 12.
