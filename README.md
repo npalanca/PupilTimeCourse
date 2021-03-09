@@ -75,3 +75,5 @@ here they can be copied or exported.
 
 14- The script will plot the complete time course for all the three normalized variables, the
 second set described in step 12.
+
+This project was financed via a FONDECYT postdoctoral grant, grant number 3180149
